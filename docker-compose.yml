@@ -1,4 +1,6 @@
 version: "3"
-  services:
+services:
     despliegue_apache:
       image: "httpd"
+      ports:
+      - 8999:80
