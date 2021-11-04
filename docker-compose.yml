@@ -1,0 +1,4 @@
+version: "3"
+  services:
+    despliegue_apache:
+      image: "httpd"
